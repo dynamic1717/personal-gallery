@@ -26,16 +26,6 @@ const SignIn = () => {
       .catch((error) => {
         setError(error.message)
       })
-    // try {
-    //   setError('')
-    //   // setLoading(true)
-    //   await dispatch(
-    //     login(emailRef.current.value, passwordRef.current.value)
-    //   ).catch((err) => console.log(err))
-    // } catch {
-    //   setError('Failed to log in')
-    // }
-    // setLoading(false)
   }
 
   useEffect(() => {
